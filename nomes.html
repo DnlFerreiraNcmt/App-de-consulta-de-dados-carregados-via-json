@@ -1,0 +1,39 @@
+<html lang="pt-BR">
+    <meta charset="utf-8">
+    <title>Nomes</title>
+<body>
+    <main>
+        <p>João</p>
+        <p>CAROLINA</p>
+        <p>conceição</p>
+        <p>MACHADO</p>
+        <p>Jorge</p>
+        <p>vinicius</p>
+        <p>josé</p>
+        <p>Patrice</p>
+        <p>PEDRO</p>
+        <p>CECÍLIA</p>
+    </main>
+
+    <button onclick="Mostrar()">
+        Verificar
+    </button>
+
+    <p id="texto"></p>
+<script>
+    const nomes = ["João", "CAROLINA", "conceição","MACHADO", "Jorge", "vinicius", "josé", "Patrice", "PEDRO", "CECÍLIA"];
+    const iniciais = nomes.map(Inicial);
+    function Inicial(nom){
+        return nom[0]
+    };
+    function VerificarMaius(ini){
+        return ini === ini.toUpperCase()
+    }
+
+    function Mostrar(){
+        document.getElementById("texto").innerHTML = iniciais.filter(VerificarMaius)
+    }
+
+</script>
+</body>
+</html>

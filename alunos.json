@@ -1,0 +1,51 @@
+[
+{
+    "id": 1,
+    "nome": "Antonio lima",
+    "idade": 18,
+    "curso": "Desenvolvimento de Sistemas",
+    "nota": 8.5
+},
+{
+    "id": 2,
+    "nome": "Carlos maia",
+    "idade": 19,
+    "curso": "Desenvolvimento de Sistemas",
+    "nota": 7
+},
+{
+    "id": 3,
+    "nome": "Amanda silva",
+    "idade": 17,
+    "curso": "Desenvolvimento de Sistemas",
+    "nota": 9
+},
+{
+    "id": 4,
+    "nome": "Gustavo lima",
+    "idade": 20,
+    "curso": "Desenvolvimento de Sistemas",
+    "nota": 3
+},
+{
+    "id": 5,
+    "nome": "Maria Braga",
+    "idade": 14,
+    "curso": "Desenvolvimento de Sistemas",
+    "nota": 5
+},
+{
+    "id": 6,
+    "nome": "Eugênio lima",
+    "idade": 22,
+    "curso": "Desenvolvimento de Sistemas",
+    "nota": 6.7
+},
+{
+    "id": 7,
+    "nome": "Mario silva",
+    "idade": 23,
+    "curso": "Desenvolvimento de Sistemas",
+    "nota": 8.1
+}
+]
